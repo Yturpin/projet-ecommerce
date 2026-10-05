@@ -1,0 +1,15 @@
+-- =============================================================================
+-- Projet e-commerce : création du schéma (Partie 1)
+-- Lancer : psql -U {username} -d ecommerce_db -f create_schema.sql
+-- =============================================================================
+-- Tables attendues par seed_ecommerce.sql, avec ces noms de colonnes exacts :
+--   client         (id, nom, prenom, email, ville, date_inscription)
+--   produit        (id, nom, categorie, prix, stock)
+--   commande       (id, client_id, date_commande, statut)
+--   ligne_commande (id, commande_id, produit_id, quantite, prix_unitaire)
+--
+-- Ordre de création : client et produit d'abord, puis commande, puis
+-- ligne_commande (une table doit exister avant d'être référencée).
+-- =============================================================================
+
+-- À écrire : Partie 1 du sujet.

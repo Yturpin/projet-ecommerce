@@ -1,0 +1,35 @@
+# --- Secrets et variables d'environnement (mots de passe PostgreSQL, etc.)
+.env
+.env.*
+!.env.example
+.pgpass
+
+# --- macOS et Windows
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# --- Fichiers d'éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Sauvegardes et exports de base (on versionne le SQL, pas les dumps)
+*.dump
+*.backup
+*.bak
+
+# --- Logs et fichiers temporaires
+*.log
+tmp/
+temp/
+*.tmp
+
+# --- Python (si un script d'appoint est ajouté)
+.venv/
+venv/
+__pycache__/
+*.pyc
