@@ -120,27 +120,3 @@ Les données couvrent l'année 2025.
 - Villes : à nombre de clients égal, le CA varie du simple au double (83 721,92 € à Montpellier, 40 273,45 € à Strasbourg). L'écart vient surtout du nombre de commandes.
 
 Le détail des requêtes, des résultats et des interprétations se trouve en commentaire dans `analysis.sql`.
-
-## Travailler à plusieurs
-
-Chaque membre travaille sur sa copie du dépôt et envoie ses changements sur la branche `main`.
-
-```bash
-# Récupérer le travail des autres avant d'envoyer le sien
-git pull --rebase
-
-# Vérifier que le fichier s'exécute sans erreur
-psql -U {username} -d ecommerce_db -f analysis.sql
-
-# Enregistrer et envoyer
-git add analysis.sql
-git commit -m "Ajouter l'exercice 7"
-git push
-```
-
-Règles du groupe :
-
-- Dans `analysis.sql`, chacun écrit sous l'en-tête de son exercice, sans toucher aux autres sections.
-- Un commit correspond à un changement cohérent, avec un message qui dit ce qui a été fait.
-- Ne jamais versionner de mot de passe ni de fichier `.env`.
-- Pas de `git push --force`.
