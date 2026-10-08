@@ -2,7 +2,7 @@
 
 Projet de groupe du cours « Bases de données relationnelles » (Efrei, M1 Data et IA), réalisé entièrement en SQL avec PostgreSQL.
 
-**Groupe 3 (comptes GitHub) :** `Yturpin`, `Yacine2512`, `Aksal04`, `Ragna2024`, `touria123`, `nirzara13`
+**Groupe 3 (comptes GitHub) :** `Yturpin`, `Yacine2512`, `Aksal04`, `Ragna2024`, `touria123`, `nirzara13`, `julienkl`
 
 ## Contenu du dépôt
 
